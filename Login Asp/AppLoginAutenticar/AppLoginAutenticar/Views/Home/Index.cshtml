@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+@if(TempData["MensagemLogin"] != null)
+{
+    <div class ="alert alert-success">
+        @TempData["MensagemLogin"]
+    </div>
+}
+
+<div class="jumbotron">
+    <h1>App Login Autenticação</h1>
+    
+</div>

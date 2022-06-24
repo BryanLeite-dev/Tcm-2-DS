@@ -1,0 +1,6 @@
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\bin\Debug\Banco.dll
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\bin\Debug\Banco.pdb
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\obj\Debug\Banco.dll
+C:\Users\Pichau\OneDrive - Etec Centro Paula Souza\Desktop\TCM 2\Login Asp\AppLoginAutenticar\Banco\obj\Debug\Banco.pdb

@@ -48,9 +48,28 @@ update tblUsuario set Senha = vSenha where Login = vLogin;
 End
 $$
 
+delimiter $$
+create procedure spDeleteUsuario(vUsuarioID int) 
+Begin
+
+DELETE FROM tblUsuario where UsuarioID = vUsuarioID;
+           
+End
+$$
+
 -- drop procedure UpdateSenha;
 
+delimiter $$
+create procedure spListarUsuarios() 
+Begin
 
+select * from tblUsuario;
+           
+End
+$$
+
+call spListarUsuarios;
+call spDeleteUsuario('4');
 
 
 Call spInsertUsuarios('Astrogildo','Porquinho','12345678');

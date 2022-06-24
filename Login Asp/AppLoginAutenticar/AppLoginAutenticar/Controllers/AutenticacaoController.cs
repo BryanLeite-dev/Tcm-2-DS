@@ -146,5 +146,53 @@ namespace AppLoginAutenticar.Controllers
             TempData["MensagemLogin"] = "Senha alterada com sucesso!";
             return RedirectToAction("Index", "Administrativo");
         }
+
+        public ActionResult Delete(string ReturnUrl)
+        {
+            
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Delete(DeleteViewModel viewModel)
+        {
+          
+            usuario.DeleteUsuario(usuario);
+
+            return View();
+        }
+
+        public ActionResult Listar() 
+        {
+            List<Usuario> listarUsuarios = new List<Usuario>()
+            {
+                new Usuario
+                {
+                    UsuarioId = 1,
+                    UsuNome = "@",
+                    Login = "HEHE",
+                    Senha = "Que isso meu fi"
+                },
+
+                new Usuario
+                {
+                    UsuarioId = 2,
+                    UsuNome = "Jorge",
+                    Login = "HEHE",
+                    Senha = "Tome"
+                },
+
+                new Usuario
+                {
+                    UsuarioId = 3,
+                    UsuNome = "Jorge",
+                    Login = "HEHE",
+                    Senha = "Ai mamae"
+                }
+            };
+
+            ViewBag.List = listarUsuarios;
+            ViewData["listarUsuarios"] = listarUsuarios;
+            return View(listarUsuarios);
+        }
     }
 }
